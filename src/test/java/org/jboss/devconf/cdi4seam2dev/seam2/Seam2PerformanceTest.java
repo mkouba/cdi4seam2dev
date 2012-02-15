@@ -21,7 +21,8 @@ public class Seam2PerformanceTest extends Seam2Test {
 	@Test
 	public void testPerformance() {
 
-		// Seam 2 injection is not supported
+		// Seam 2 injection is not supported yet
+		// Arquillian extension is work in progress
 		Translator translator = (Translator) Component
 				.getInstance(Translator.class);
 
